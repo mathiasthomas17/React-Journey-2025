@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles.css'
+import '../css/styles.css'
 import { useState } from 'react'
 
 const Todos = () => {

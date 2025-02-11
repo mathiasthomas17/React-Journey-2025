@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import '../styles.css'
+import '../css/styles.css'
 
 const CounterComp = () => {
     // States
