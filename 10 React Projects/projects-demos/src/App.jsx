@@ -2,6 +2,8 @@ import React from 'react'
 import CounterComp from './components/CounterComp'
 import Todos from './components/Todos'
 import Meals from './components/Meals'
+import Calculator from './components/Calculator'
+// import Cal
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <div>
       {/* <CounterComp /> */}
       {/* <Todos /> */}
-    < Meals/>
+    {/* < Meals/> */}
+    <Calculator />
     </div>
   )
 }
