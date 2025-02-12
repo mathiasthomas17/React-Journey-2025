@@ -3,6 +3,7 @@ import CounterComp from './components/CounterComp'
 import Todos from './components/Todos'
 import Meals from './components/Meals'
 import Calculator from './components/Calculator'
+import Sims from './components/Sims'
 // import Cal
 
 
@@ -12,7 +13,8 @@ function App() {
       {/* <CounterComp /> */}
       {/* <Todos /> */}
     {/* < Meals/> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    <Sims/>
     </div>
   )
 }
