@@ -13,8 +13,7 @@ function App() {
       {/* <CounterComp /> */}
       {/* <Todos /> */}
     {/* < Meals/> */}
-    {/* <Calculator /> */}
-    <Sims/>
++    {/* <Sims/> */}
     </div>
   )
 }
