@@ -12,11 +12,7 @@ import ToggleBacground from './components/ToggleBacground'
 function App() {
   return (
     <div>
-      {/* <CounterComp /> */}
-      {/* <Todos /> */}
-    {/* < Meals/> */}
- {/* <Sims/> */}
- {/* <ToggleBacground/> */}
+    
     </div>
   )
 }
