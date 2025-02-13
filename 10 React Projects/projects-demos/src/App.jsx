@@ -5,6 +5,7 @@ import Meals from './components/Meals'
 import Calculator from './components/Calculator'
 import Sims from './components/Sims'
 import ToggleBacground from './components/ToggleBacground'
+import Hiddensearch from './components/Hiddensearch'
 
 // import Cal
 
@@ -12,7 +13,9 @@ import ToggleBacground from './components/ToggleBacground'
 function App() {
   return (
     <div>
-    <ToggleBacground />
+    {/* <ToggleBacground /> */}
+    {/* <Meals /> */}
+    <Hiddensearch />
     </div>
   )
 }
