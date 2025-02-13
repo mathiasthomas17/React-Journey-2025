@@ -12,7 +12,7 @@ import ToggleBacground from './components/ToggleBacground'
 function App() {
   return (
     <div>
-    
+    <ToggleBacground />
     </div>
   )
 }

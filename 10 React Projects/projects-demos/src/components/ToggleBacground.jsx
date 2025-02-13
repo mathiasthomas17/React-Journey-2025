@@ -7,6 +7,9 @@ function ToggleBacground() {
   const [backgroundColor,setbackgroundColor] = useState('white')
   const [textColor,setTextColor] = useState('#1b1b1b')
   const [buttonStyle,setbuttonStyle]= useState('white')
+  const handleClick = ()=>{
+    setbackgroundColor(backgroundColor=== 'white' ? '#1b1b1b' : 'white')
+  }
   return (
     <div className={{backgroundColor, color: textColor}}>
       <button onClick={handleClick} style={{buttonStyle, color:textColor, border:`2px solid ${textColor}`}}>
