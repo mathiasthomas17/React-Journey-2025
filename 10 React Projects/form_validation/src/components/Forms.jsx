@@ -12,7 +12,7 @@ const Forms = () => {
     const [errorUsername,setErrorUsername] = useState('') 
     const [errorEmail,setErrorEmail]= useState('')
     const [erroPassword,setErrorPasword] = useState('')
-    const [errorConfirmPass,setErrorConfirmPas] = useState('')
+    const [errorConfirmPass,setErrorConfirmPass] = useState('')
 
     const [userColor,setUserColor]= useState('')
     const [emailColor,setEmailColor] = useState('')
@@ -45,10 +45,10 @@ const Forms = () => {
             setPassWordColor('red')
         }
         if(password === confirmPass){
-            setErrorConfirmPas('')
+            setErrorConfirmPass('')
             setConfrimPass('green')
         }else{
-            setErrorConfirmPas('Sorry,Passwords do not match')
+            setErrorConfirmPass('Sorry,Passwords do not match')
             setConfrimPassColor('red')
         }
 
