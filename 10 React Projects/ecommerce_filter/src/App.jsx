@@ -1,11 +1,8 @@
 import React from 'react'
+import Nav from './Navigation/Nav'
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hello</h1>
-    </div>
-  )
+  return <Nav/>
 }
 
 export default App
