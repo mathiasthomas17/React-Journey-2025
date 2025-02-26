@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Search from './components/Search';
 import Spinner from './components/Spinner';
+import Moviecard from './components/Moviecard';
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
@@ -31,6 +32,7 @@ const App = () => {
       }
 
       const data = await response.json();
+      console.log(data)
       
       if (!data.results) {
         setErrorMessage('Failed to fetch movies');
@@ -70,7 +72,8 @@ const App = () => {
             ) : (
               <ul>
                 {movieList.map((movie) => (
-                  <p key={movie.id} className="text-white">{movie.title}</p>
+                  <Moviecard key={movie.id} movie={movie}/>
+                  
                 ))}
               </ul>
             )}
